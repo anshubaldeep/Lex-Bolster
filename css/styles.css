@@ -4,8 +4,7 @@
   padding-right: 0.75rem;
   padding-bottom: 0.375rem;
   padding-left: 0.75rem;
-  font-size: 1rem; 
-}
+  font-size: 1rem; }
 
 .navbar-toggler-icon {
   color: black; }
@@ -33,12 +32,12 @@
   color: black;
   border: 2px solid #28166F; }
 
-.btn:hover {
+.btn:hover, .btn:focus {
   background-color: #5039AB; }
 
 .row-header {
   margin: 0px auto;
-  padding: 100px 0px 80px; }
+  padding: 140px 0px 80px; }
 
 .row-content {
   margin: 0px auto;
@@ -54,7 +53,7 @@
 
 .jumbotron {
   margin: 0px auto;
-  padding: 70px 30px 80px;
+  padding: 0px 30px 80px;
   background: white;
   color: black;
   margin-top: 0px; }
