@@ -37,26 +37,27 @@
 
 .row-header {
   margin: 0px auto;
-  padding: 140px 0px 80px; }
+  padding: 125px 0px 40px; }
 
 .row-content {
   margin: 0px auto;
-  padding: 110px 0px 80px;
+  padding: 110px 0px 40px;
   min-height: 400px; }
 
 .footer {
   background-color: #F9F9FD;
   margin: 0px auto;
-  padding: 20px 0px 80px; }
+  padding: 20px 0px 40px; }
   .footer #footer-address {
     font-size: 0.8em; }
 
 .jumbotron {
   margin: 0px auto;
-  padding: 0px 30px 80px;
+  padding: 0px 30px 40px;
   background: white;
   color: black;
-  margin-top: 0px; }
+  margin-top: 0px;
+  padding-bottom: 0px; }
   .jumbotron img {
     width: 88%; }
   .jumbotron .btn {
@@ -104,9 +105,10 @@
       background: linear-gradient(to right, blue, green); }
 
 #trainings {
+  margin-top: 40px;
   text-align: center;
   background-image: url("./../img/training-bg.png");
-  height: 100%;
+  height: 90%;
   /* Center and scale the image nicely */
   background-repeat: no-repeat;
   background-size: contain;
@@ -119,7 +121,9 @@
   #trainings #comma {
     width: 3%; }
   #trainings .carousel-item {
-    height: 180px; }
+    height: 160px; }
+  #trainings .text-secondary {
+    margin-bottom: 4px; }
   #trainings img {
     width: 80%; }
   #trainings .carousel-control-prev {
@@ -266,6 +270,9 @@ address {
 body {
   padding: 0px 0px 0px 0px;
   z-index: 0; }
+
+html {
+  scroll-behavior: smooth; }
 
 #join-us img {
   width: 100%; }
@@ -429,12 +436,18 @@ label {
     width: auto; } }
 
 @media only screen and (max-width: 768px) {
+  section {
+    padding-top: 258px;
+    margin-top: -258px; }
+  #jumbotron-section {
+    padding-top: 340px;
+    margin-top: -340px; }
   .navbar-brand {
     margin-left: auto;
     margin-right: auto;
     width: 70px; }
   .row-content {
-    padding-top: 140px 0px; }
+    padding-top: 120px; }
   .navbar .nav-item {
     text-align: center;
     margin-top: 2px; }
@@ -446,8 +459,9 @@ label {
     margin-top: 6px; }
   #jumbotorn {
     padding: 0px !important; }
-  .jumbotron .row {
-    margin-top: 5px; }
+  .jumbotron .row-header {
+    padding-top: 120px;
+    margin-top: -90px; }
   .jumbotron .btn {
     margin-bottom: 15px;
     font-size: 12px;
@@ -471,6 +485,16 @@ label {
     font-size: 0.75em; }
   #about-us h3 {
     font-size: 1.5em; }
+  #services p {
+    margin-bottom: 4px; }
+  #services h1 {
+    font-size: 1.5em; }
+  #services .card-title {
+    font-size: 1.35em; }
+  #services ul {
+    font-size: 0.9em; }
+  #trainings .carousel-item {
+    padding-top: 4px !important; }
   #trainings #comma {
     width: 7%; }
   #trainings h1 {
@@ -480,6 +504,16 @@ label {
   #trainings hr {
     width: 100%;
     color: black; }
+  #join-us h1 {
+    font-size: 1.5em; }
+  #join-us p {
+    font-size: 0.75em; }
+  #join-us .row-content {
+    margin-top: 0px; }
+  #join-us img {
+    width: 90%; }
+  #join-us .btn {
+    font-size: 0.75em; }
   .popover {
     max-width: 160px;
     font-size: 0.75em; }
@@ -492,13 +526,20 @@ label {
   #partners .partner-img {
     width: 100px;
     margin-left: 5px; }
+  #contact-us h1 {
+    font-size: 1.5em; }
+  #contact-us p {
+    font-size: 0.75em; }
   #contact-us .row {
-    margin-bottom: 30px; }
+    margin-bottom: 10px !important; }
+  #contact-us .form-group {
+    width: 100% !important; }
   #contact-us .btn {
     align-self: center;
     text-align: center;
-    font-size: 12px;
+    font-size: 18px;
     padding: 10px 22px;
-    margin-top: 6px; }
+    margin-top: 6px;
+    width: 100% !important; }
   footer div {
     text-align: center; } }

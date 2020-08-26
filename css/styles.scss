@@ -66,11 +66,11 @@ $carousel-item-height: 300px;
 
 @mixin zero-margin($pad-up-dn, $pad-left-right) {
 	margin:0px auto;
-	padding: $pad-up-dn $pad-left-right 80px;
+	padding: $pad-up-dn $pad-left-right 40px;
 }
 
 .row-header{
-    @include zero-margin(140px,0px);
+    @include zero-margin(125px,0px);
 }
 
 .row-content {
@@ -86,11 +86,16 @@ $carousel-item-height: 300px;
     }
 }
 
+
+
+
+
 .jumbotron {
     @include zero-margin(0px,30px);
     background: $background-light ;
     color:black;
     margin-top: 0px;
+    padding-bottom: 0px;
     img{
         width: 88%;
     }
@@ -159,9 +164,10 @@ $carousel-item-height: 300px;
 }
 
 #trainings{
+    margin-top: 40px;
     text-align: center;
     background-image: url("./../img/training-bg.png");
-    height: 100%; 
+    height: 90%; 
 
     /* Center and scale the image nicely */
     background-repeat:no-repeat;
@@ -178,7 +184,11 @@ $carousel-item-height: 300px;
         width: 3%;
     }
     .carousel-item{
-        height:180px;
+        height:160px;
+        
+    }
+    .text-secondary{
+        margin-bottom: 4px;
     }
     img{
         width: 80%;
@@ -346,7 +356,10 @@ address{
 body{
     padding:0px 0px 0px 0px;
     z-index:0;
-    
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 #join-us{
@@ -576,13 +589,23 @@ body{
   }
 
 @media only screen and (max-width:768px) {
+    section{
+        padding-top: 258px;
+        margin-top: -258px;
+    }
+    
+    #jumbotron-section{
+        padding-top: 340px;
+        margin-top: -340px;
+    }
+
     .navbar-brand {
         margin-left: auto;
         margin-right: auto;
         width:70px;
     }
     .row-content{
-        padding-top: 140px 0px;
+        padding-top: 120px;
     }
     .navbar{
         .nav-item{
@@ -602,9 +625,9 @@ body{
         padding: 0px !important;
     }
     .jumbotron{
-        
-        .row{
-            margin-top:5px;
+        .row-header{
+            padding-top: 120px;
+            margin-top:-90px
         }
         .btn{
             margin-bottom: 15px;
@@ -641,7 +664,24 @@ body{
             font-size: 1.5em;
         }
     }
+    #services{
+        p{
+            margin-bottom: 4px;
+        }
+        h1{
+            font-size: 1.5em;
+        }
+        .card-title{
+            font-size: 1.35em;
+        }
+        ul{
+            font-size: 0.9em;
+        }
+    }
     #trainings{
+        .carousel-item{
+            padding-top: 4px !important;
+        }
         #comma{
             width: 7%;
         }
@@ -657,6 +697,24 @@ body{
         }
         
     }
+    #join-us{
+        h1{
+            font-size: 1.5em;
+        }
+        p{
+            font-size: 0.75em;
+        }
+        .row-content{
+            margin-top: 0px;
+        }
+        img{
+            width: 90%;
+        }
+        .btn{
+            font-size: 0.75em;
+        }
+    }
+
     .popover{
         h1{
             font-size: 1em;
@@ -677,16 +735,25 @@ body{
         }
     }
     #contact-us{
-        
+        h1{
+            font-size: 1.5em;
+        }
+        p{
+            font-size: 0.75em;
+        }
         .row{
-            margin-bottom: 30px;
+            margin-bottom: 10px !important;
+        }
+        .form-group{
+            width: 100% !important;
         }
         .btn{
             align-self: center;
             text-align: center;
-            font-size: 12px;
+            font-size: 18px;
             padding: 10px 22px;
             margin-top: 6px;
+            width: 100% !important;
         }
     }
     footer{
