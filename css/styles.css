@@ -498,7 +498,8 @@ label {
   #services ul {
     font-size: 0.9em; }
   #trainings .carousel-item {
-    padding-top: 4px !important; }
+    padding-top: 4px !important;
+    height: 240px; }
   #trainings #comma {
     width: 7%; }
   #trainings h1 {
