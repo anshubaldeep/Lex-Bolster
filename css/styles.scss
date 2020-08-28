@@ -74,7 +74,7 @@ $carousel-item-height: 300px;
 }
 
 .row-content {
-    @include zero-margin(110px,0px);
+    @include zero-margin(90px,0px);
     min-height:400px;
 }
 
@@ -83,6 +83,9 @@ $carousel-item-height: 300px;
     @include zero-margin(20px, 0px);
     #footer-address{
         font-size: 0.8em;
+    }
+    .copyright{
+        font-size: 0.75em;
     }
 }
 
@@ -614,7 +617,7 @@ html{
     
 
     .row-content{
-        padding-top: 120px;
+        padding-top: 70px;
     }
     .navbar{
         .nav-item{
@@ -744,6 +747,7 @@ html{
         }
     }
     #contact-us{
+        padding-top: 70px;
         h1{
             font-size: 1.5em;
         }
