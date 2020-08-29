@@ -293,7 +293,8 @@ html {
   font-size: 1.25em; }
 
 #contact-us {
-  padding-top: 110px; }
+  padding-top: 110px;
+  margin-top: 40px; }
 
 #footer-links a {
   color: #28166F !important; }
@@ -532,7 +533,8 @@ label {
     width: 100px;
     margin-left: 5px; }
   #contact-us{
-    padding-top: 70px;}
+    padding-top: 70px;
+    margin-top: -218px;}
   #contact-us h1 {
     font-size: 1.5em; }
   #contact-us p {
