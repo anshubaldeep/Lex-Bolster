@@ -162,11 +162,11 @@
     display: -ms-flexbox;
     display: box;
     display: flex;
-    -webkit-animation: marquee 10s linear infinite running;
-    -moz-animation: marquee 10s linear infinite running;
-    -o-animation: marquee 10s linear infinite running;
-    -ms-animation: marquee 10s linear infinite running;
-    animation: marquee 10s linear infinite running; }
+    -webkit-animation: marquee 14s linear infinite running;
+    -moz-animation: marquee 14s linear infinite running;
+    -o-animation: marquee 14s linear infinite running;
+    -ms-animation: marquee 14s linear infinite running;
+    animation: marquee 14s linear infinite running; }
   #trainings .Marquee-content:hover {
     -webkit-animation-play-state: paused;
     -moz-animation-play-state: paused;
@@ -201,6 +201,8 @@
     -o-transition: all 0.2s ease;
     -ms-transition: all 0.2s ease;
     transition: all 0.2s ease; }
+  #trainings .long-icon{
+    width: 300px;}
   #trainings .Marquee-tag:hover {
     background: rgba(255, 255, 255, 0.5);
     -webkit-transform: scale(1.1);
