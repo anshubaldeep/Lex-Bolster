@@ -28,7 +28,11 @@
         });
     
 
-    
+        $('.insights-caraousel').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+        })
 
     
         $('.multiple-items').slick({

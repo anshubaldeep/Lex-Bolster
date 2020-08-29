@@ -268,6 +268,9 @@
     -ms-transform: translate(-50%);
     transform: translate(-50%); } }
 
+#insights .card{
+  height: 400px;}    
+
 address {
   font-size: 80%;
   margin: 0px;
@@ -531,6 +534,8 @@ label {
       font-size: 1em; }
     .popover i {
       size: 0.25em; }
+  #insights .card{
+  height: 100%;}
   #partners .partner-img {
     width: 100px;
     margin-left: 5px; }
