@@ -42,7 +42,8 @@
 .row-content {
   margin: 0px auto;
   padding: 90px 0px 40px;
-  min-height: 400px; }
+  min-height: 400px; 
+  margin-top: 140px;}
 
 .footer {
   background-color: #F9F9FD;
@@ -447,8 +448,8 @@ label {
 
 @media only screen and (max-width: 768px) {
   section {
-    padding-top: 258px;
-    margin-top: -258px; }
+    padding-top: 288px;
+    margin-top: -288px; }
   #jumbotron-section {
     padding-top: 340px;
     margin-top: -340px; }
@@ -457,7 +458,8 @@ label {
     margin-right: auto;
     width: 70px; }
   .row-content {
-    padding-top: 70px; }
+    padding-top: 120px;
+    margin-top: 0px; }
   .navbar .nav-item {
     text-align: center;
     margin-top: 2px; }
@@ -495,6 +497,8 @@ label {
     font-size: 0.75em; }
   #about-us h3 {
     font-size: 1.5em; }
+  #services .row-content {
+    padding-top: 70px; }
   #services p {
     margin-bottom: 4px; }
   #services h1 {
@@ -520,7 +524,7 @@ label {
   #join-us p {
     font-size: 0.75em; }
   #join-us .row-content {
-    margin-top: 0px; }
+    margin-top: -20px; }
   #join-us img {
     width: 90%; }
   #join-us .btn {
@@ -535,7 +539,20 @@ label {
     .popover i {
       size: 0.25em; }
   #insights .card{
-  height: 100%;}
+    height: 100%;}
+  #insights .row-content{
+    padding-top: 100px;}
+  #insights h1{
+    font-size: 1.75em;
+    margin-bottom: 0px;}
+  #insights .insights-caraousel{
+    margin-top: -30px;}
+  #insights h3{
+    font-size: 1.5em;}
+  #insights p{
+    font-size: 0.85em;}
+  #insights .btn{
+    font-size: 0.85em;}
   #partners .partner-img {
     width: 100px;
     margin-left: 5px; }

@@ -606,8 +606,8 @@ html{
 
 @media only screen and (max-width:768px) {
     section{
-        padding-top: 258px;
-        margin-top: -258px;
+        padding-top: 288px;
+        margin-top: -288px;
     }
     
     #jumbotron-section{
@@ -624,7 +624,7 @@ html{
     
 
     .row-content{
-        padding-top: 70px;
+        padding-top: 120px;
     }
     .navbar{
         .nav-item{
@@ -696,6 +696,9 @@ html{
         ul{
             font-size: 0.9em;
         }
+        .row-content {
+            padding-top: 70px; 
+        }
     }
     #trainings{
         .carousel-item{
@@ -748,6 +751,23 @@ html{
             size: 0.25em;
         }
     }
+    #insights{
+        .card{
+            height: 100%;}
+          .row-content{
+            padding-top: 100px;}
+           h1{
+            font-size: 1.75em;
+            margin-bottom: 0px;}
+           .insights-caraousel{
+            margin-top: -30px;}
+           h3{
+            font-size: 1.5em;}
+           p{
+            font-size: 0.85em;}
+           .btn{
+            font-size: 0.85em;}
+    } 
     #partners{
         .partner-img{
             width: 100px;

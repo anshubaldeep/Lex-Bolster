@@ -1,7 +1,7 @@
 
         $('body').scrollspy({ target: '#navbar' })
     
-    
+    AOS.init();
     
 
     
@@ -68,6 +68,10 @@
       
     
         $(document).ready(function() {
+            AOS.init({
+                offset: 200,
+                duration: 1400,
+            });
         // Navigation color change 
         $(window).scroll(function() {
         var nav_img = $('.navbar-brand img');
