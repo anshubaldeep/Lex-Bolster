@@ -69,6 +69,8 @@
     
         $(document).ready(function() {
             AOS.init({
+                disable:'phone',
+                once:true,
                 offset: 200,
                 duration: 1400,
             });
