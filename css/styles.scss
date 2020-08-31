@@ -71,6 +71,7 @@ $carousel-item-height: 300px;
 
 .row-header{
     @include zero-margin(125px,0px);
+    margin-top: -78px;
 }
 
 .row-content {

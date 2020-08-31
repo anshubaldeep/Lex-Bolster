@@ -37,7 +37,8 @@
 
 .row-header {
   margin: 0px auto;
-  padding: 125px 0px 40px; }
+  padding: 125px 0px 40px;
+  margin-top: -78px; }
 
 .row-content {
   margin: 0px auto;
